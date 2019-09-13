@@ -11,6 +11,11 @@ https://docs.djangoproject.com/ko/2.2/intro/tutorial01/
     python3 -m virtualenv myvenv
     source myvenv/bin/activate
 
+    # dependency library install 
+    pip install -r requirements.txt
+    # current lib dependency 
+    pip freeze > requirements.txt
+
 ### 2. django setting
     pip install django
     django-admin startproject mysite
