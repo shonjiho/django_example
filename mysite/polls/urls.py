@@ -2,7 +2,9 @@ from django.urls import path
 
 from . import views
 
-# wire new views into urls module
+# URL Namespace
+app_name = "polls"
+
 urlpatterns = [
 	# ex: /polls/
     path('', views.index, name='index'),
