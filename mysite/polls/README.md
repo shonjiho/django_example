@@ -27,5 +27,6 @@ Model API 를 확인해보고 테스트할 때 Django 쉘환경을 추천
 python manage.py shell
 ```
 
-DB Model API reference(https://docs.djangoproject.com/en/2.2/topics/db/queries/) 참조.
+DB Model API reference(https://docs.djangoproject.com/en/2.2/topics/db/queries/) 
+
 Tutorial (https://docs.djangoproject.com/en/2.2/intro/tutorial02)
