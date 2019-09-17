@@ -29,4 +29,8 @@ python manage.py shell
 
 DB Model API reference(https://docs.djangoproject.com/en/2.2/topics/db/queries/) 
 
-Tutorial (https://docs.djangoproject.com/en/2.2/intro/tutorial02)
+Tutorial
+(https://docs.djangoproject.com/en/2.2/intro/tutorial02)
+
+django Template guide
+https://docs.djangoproject.com/en/2.2/topics/templates/
