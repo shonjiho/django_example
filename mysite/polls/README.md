@@ -27,10 +27,5 @@ Model API 를 확인해보고 테스트할 때 Django 쉘환경을 추천
 python manage.py shell
 ```
 
-DB Model API reference(https://docs.djangoproject.com/en/2.2/topics/db/queries/) 
-
-Tutorial
-(https://docs.djangoproject.com/en/2.2/intro/tutorial02)
-
-django Template guide
-https://docs.djangoproject.com/en/2.2/topics/templates/
+# Django Generic View(클래스 사용) 와 일반적인 방식(함수 이용) 둘 다 익숙해지기.
+https://docs.djangoproject.com/en/2.2/topics/class-based-views/
