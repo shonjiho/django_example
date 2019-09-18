@@ -15,3 +15,6 @@ https://docs.djangoproject.com/en/2.2/topics/templates/
 
 ### Django URL dispatcher
 https://docs.djangoproject.com/en/2.2/topics/http/urls/
+
+### Django HttpResponse HttpRequest API reference
+https://docs.djangoproject.com/en/2.2/ref/request-response/
