@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/2.2/intro/tutorial03/
 ### Django Template Guide
 https://docs.djangoproject.com/en/2.2/topics/templates/
 
+#### Django Template Language ref
+https://docs.djangoproject.com/en/2.2/ref/templates/language/
+
 ### Django URL dispatcher
 https://docs.djangoproject.com/en/2.2/topics/http/urls/
 
