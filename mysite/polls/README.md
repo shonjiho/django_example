@@ -27,10 +27,8 @@ Model API 를 확인해보고 테스트할 때 Django 쉘환경을 추천
 python manage.py shell
 ```
 
-2 view way
-
+### Generic View and General View
+https://docs.djangoproject.com/en/2.2/topics/class-based-views/
 - Django.views.generic Generic View ( using class)
 - use function in app/views.py
-
-
 
