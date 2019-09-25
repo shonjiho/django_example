@@ -3,4 +3,5 @@
 myvenv
 db.sqlite3
 *env
+.coverage
 
