@@ -1,7 +1,26 @@
 from django.contrib import admin
-from .models import Question, Choice
-# Register your models here.
+from . import models
 
-admin.site.register(Question)
+@admin.register(models.Question)
+class QuestionAdmin(admin.ModelAdmin):
+    list_display = ("question_text", "pub_date")
+    fieldset = (
+        (
+            'Custom Field',
+            {
+                'fields': ('question_text', 'pub_date', "photo"),
+            }
+        ),
+    )
 
-admin.site.register(Choice)
+
+@admin.register(models.Choice)
+class ChoiceAdmin(admin.ModelAdmin):
+    list_display = (
+        "question",
+        "choice_text",
+        "votes",
+    )
+    
+    
+
